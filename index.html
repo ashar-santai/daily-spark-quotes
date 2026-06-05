@@ -8,13 +8,13 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #0d0d1a;
-      --card: #15152b;
-      --accent: #7c6fff;
-      --accent2: #ff6fb0;
-      --text: #f0eeff;
-      --muted: #7a7a9d;
-      --border: rgba(124,111,255,0.18);
+      --bg: #0f0a00;
+      --card: #1a1200;
+      --accent: #f5a623;
+      --accent2: #ff6b35;
+      --text: #fff8ec;
+      --muted: #a08860;
+      --border: rgba(245,166,35,0.18);
     }
 
     body {
@@ -40,7 +40,7 @@
     }
     .orb1 { width: 420px; height: 420px; background: var(--accent); top: -100px; left: -100px; animation-delay: 0s; }
     .orb2 { width: 320px; height: 320px; background: var(--accent2); bottom: -80px; right: -80px; animation-delay: -7s; }
-    .orb3 { width: 240px; height: 240px; background: #6feaff; top: 50%; left: 60%; animation-delay: -3.5s; }
+    .orb3 { width: 240px; height: 240px; background: #ffcd3c; top: 50%; left: 60%; animation-delay: -3.5s; }
 
     @keyframes drift {
       from { transform: translate(0, 0) scale(1); }
@@ -211,7 +211,7 @@
     .icon-btn.liked { color: var(--accent2); border-color: var(--accent2); }
 
     .next-btn {
-      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      background: linear-gradient(135deg, #f5a623, #ff6b35);
       border: none;
       border-radius: 50px;
       padding: 14px 40px;
@@ -221,9 +221,9 @@
       cursor: pointer;
       letter-spacing: 0.06em;
       transition: transform 0.15s, box-shadow 0.15s;
-      box-shadow: 0 4px 24px rgba(124,111,255,0.3);
+      box-shadow: 0 4px 24px rgba(245,166,35,0.3);
     }
-    .next-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(124,111,255,0.45); }
+    .next-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(245,166,35,0.45); }
     .next-btn:active { transform: translateY(0); }
 
     /* Progress dots */
